@@ -1,5 +1,5 @@
 import dashboard from '@/images/dashboard.png'
-import focalPoint from '@/images/FocalPoint.png'
+import focalPoint from '@/images/focalPoint.png'
 import learnZustand from '@/images/learnZustand.png'
 
 export const datas = [
