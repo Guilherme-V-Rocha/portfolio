@@ -14,7 +14,7 @@ export function Card() {
             <h3 className="font-semibold text-lg">{value.title}</h3>
             <p>{value.text}</p>
           </div>
-          <div className="flex gap-4">
+          <div className="flex gap-4 flex-col md:flex-row">
             <a href={value.acess} target="_blank">
               <button className="bg-[#710627] rounded-lg text-[#EAE2B7] px-4 py-1.5 font-medium">
                 Acessar
