@@ -6,7 +6,7 @@ export const datas = [
   {
     img: dashboard,
     title: 'Dashboard de Vendas',
-    text: 'O eFront é um painel administrativo criado para gerenciar vendas de forma simples e visual. O sistema apresenta gráficos mensais, histórico de transações e indicadores como total líquido, cancelamentos e reembolsos. Também conta com uma área completa de compradores, exibindo dados essenciais de cada transação. O design foi construído para facilitar o uso diário e oferecer uma visão clara do desempenho. Seu layout moderno e intuitivo torna a experiência mais rápida e organizada.',
+    text: 'O eFront é um painel administrativo criado para gerenciar vendas de forma simples e visual. O sistema apresenta gráficos mensais, histórico de transações e indicadores como total líquido, cancelamentos e reembolsos. Também conta com uma área completa de compradores, exibindo dados essenciais de cada transação. O design foi construído para facilitar o uso diário e oferecer uma visão clara do desempenho. Seu layout moderno e intuitivo torna a experiência mais rápida e organizada. Obs: design feito pelo Iure Code',
     acess: 'https://dashboard-nu-wod.vercel.app/dashboard',
     redirect: 'https://github.com/Guilherme-V-Rocha/sales-dashboard',
   },
