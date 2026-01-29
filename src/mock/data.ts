@@ -1,6 +1,6 @@
 import dashboard from '@/images/dashboard.png'
-import focalPoint from '@/images/focalPoint.png'
 import learnZustand from '@/images/learnZustand.png'
+import myTask from '@/images/myTasks.png'
 
 export const datas = [
   {
@@ -11,17 +11,17 @@ export const datas = [
     redirect: 'https://github.com/Guilherme-V-Rocha/sales-dashboard',
   },
   {
-    img: focalPoint,
-    title: 'Focal Point',
-    text: 'O FocalPoint é uma aplicação minimalista voltada para organização pessoal e produtividade. Ele exibe uma saudação personalizada ao usuário e oferece uma interface limpa para gerenciar tarefas. O foco principal é a simplicidade: um espaço central onde as tarefas são visualizadas e um botão direto para criar novas. O design leve e objetivo proporciona uma navegação tranquila, ideal para rotinas de estudos ou fluxo de trabalho.',
-    acess: 'https://test-legaplan-taupe.vercel.app/',
-    redirect: 'https://github.com/Guilherme-V-Rocha/test_legaplan',
-  },
-  {
     img: learnZustand,
     title: 'Carrinho de Compras',
     text: 'Este projeto foi desenvolvido para estudar e aplicar Zustand no gerenciamento de estado em React. Ele apresenta uma lista de produtos com botão de adicionar ao carrinho, atualizando o valor total em tempo real. O sistema é simples, mas demonstra bem o uso de estado global, fluxo de dados e reatividade. O layout escuro destaca os elementos e ajuda na visualização. É um exemplo prático de conceitos usados em e-commerces.',
     acess: 'https://learn-zustand-snowy.vercel.app/',
     redirect: 'https://github.com/Guilherme-V-Rocha/learn_zustand',
+  },
+  {
+    img: myTask,
+    title: 'Minhas Tarefas',
+    text: 'Este é um sistema de gerenciamento de tarefas que permite criar, editar, excluir e listar tarefas. As informações são armazenadas no LocalStorage do navegador, garantindo que as tarefas permaneçam salvas mesmo após recarregar a página.',
+    acess: 'https://lists-tasks.vercel.app/',
+    redirect: 'https://github.com/Guilherme-V-Rocha/lists-tasks',
   },
 ]
