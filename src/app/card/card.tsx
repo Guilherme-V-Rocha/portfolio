@@ -7,10 +7,10 @@ export function Card() {
       {datas.map((value, index) => (
         <div
           key={index}
-          className="flex gap-8 mb-4 flex-col bg-[#EAE2B7] text-[#A41623] justify-around rounded-lg box-border pt-5 h-auto  p-4"
+          className="flex gap-8 mb-4 flex-col bg-[#EAE2B7] text-[#A41623] justify-between rounded-lg box-border pt-5 h-auto  p-4"
         >
-          <Image src={value.img} alt={value.title} />
           <div className="gap-4 flex flex-col">
+            <Image src={value.img} alt={value.title} />
             <h3 className="font-semibold text-lg">{value.title}</h3>
             <p>{value.text}</p>
           </div>
