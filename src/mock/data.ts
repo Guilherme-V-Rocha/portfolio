@@ -13,7 +13,7 @@ export const datas = [
   {
     img: learnZustand,
     title: 'Carrinho de Compras',
-    text: 'Este projeto foi desenvolvido para estudar e aplicar Zustand no gerenciamento de estado em React. Ele apresenta uma lista de produtos com botão de adicionar ao carrinho, atualizando o valor total em tempo real. O sistema é simples, mas demonstra bem o uso de estado global, fluxo de dados e reatividade. O layout escuro destaca os elementos e ajuda na visualização. É um exemplo prático de conceitos usados em e-commerces.',
+    text: 'Este projeto foi desenvolvido para estudar e aplicar Zustand no gerenciamento de estado em React. Ele apresenta uma lista de produtos com botão de adicionar ao carrinho, atualizando o valor total em tempo real. O sistema é simples, mas demonstra bem o uso de estado global',
     acess: 'https://learn-zustand-snowy.vercel.app/',
     redirect: 'https://github.com/Guilherme-V-Rocha/learn_zustand',
   },
